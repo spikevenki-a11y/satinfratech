@@ -88,3 +88,49 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
+}
+
+@keyframes scan {
+  0% {
+    top: -2px;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+.animate-scan {
+  animation: scan 6s linear infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: oklch(0.08 0.01 260);
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(0.72 0.19 195 / 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.72 0.19 195 / 0.5);
+}
+
+/* Selection color */
+::selection {
+  background: oklch(0.72 0.19 195 / 0.3);
+  color: oklch(0.98 0 0);
+}
