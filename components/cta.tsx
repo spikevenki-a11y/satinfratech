@@ -14,8 +14,8 @@ const contactItems = [
   {
     icon: Phone,
     label: "Direct Line",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+91 7731934849",
+    href: "tel:+917731934849",
   },
   {
     icon: MapPin,
