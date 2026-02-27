@@ -217,10 +217,11 @@ export function About() {
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {[
-                          "ISO 27001",
-                          "AWS Partner",
-                          "Azure Expert",
-                          "SOC 2",
+                          // "ISO 27001",
+                          // "AWS Partner",
+                          // "Azure Expert",
+                          // "SOC 2",
+                           "ZueTech",
                         ].map((cert) => (
                           <span
                             key={cert}
