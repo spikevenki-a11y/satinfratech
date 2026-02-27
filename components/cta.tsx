@@ -8,19 +8,19 @@ const contactItems = [
   {
     icon: Mail,
     label: "Comm Link",
-    value: "hello@satinfratech.com",
-    href: "mailto:hello@satinfratech.com",
+    value: "iyyanarlohith@gmail.com",
+    href: "mailto:iyyanarlohith@gmail.com",
   },
   {
     icon: Phone,
     label: "Direct Line",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+91 77319-34849",
+    href: "tel:+917731934849",
   },
   {
     icon: MapPin,
     label: "Headquarters",
-    value: "123 Tech Park, Silicon Valley, CA",
+    value: "SVIT , #3rd Cabin , Chennai",
     href: "#",
   },
 ];
